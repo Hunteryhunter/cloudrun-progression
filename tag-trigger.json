@@ -1,0 +1,12 @@
+{
+  "triggerTemplate": {
+    "projectId": "qwiklabs-gcp-02-858f1881494c",
+    "repoName": "cloudrun-progression",
+    "tagName": ".*"
+  },
+  "name": "tag",
+  "description": "Migrate from canary to prod triggered by creation of any tag",
+
+  "filename": "tag-cloudbuild.yaml",
+  "serviceAccount": "projects/qwiklabs-gcp-02-858f1881494c/serviceAccounts/278848550685-compute@developer.gserviceaccount.com"
+}
